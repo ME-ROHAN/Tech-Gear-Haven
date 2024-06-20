@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    display: flex;
+    /* height: 40px; */
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    width: 40%;
+
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    height: 70px;
+    width: 100%;
+   display: flex;
+ justify-content: center;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 200px 0px 100px;
+    z-index: 1000;
+
+   
+}
+
+a{
+   text-decoration: none;
+   font-size: 20px;
+   color: black;
+   transition: all  ease-in-out ;
+}
+
+a:hover{
+    /* transform: scale(1.1); */
+    text-decoration: underline;
+    color: rgb(44, 202, 163);
+}
+
+.isRed{
+    text-decoration: underline;
+    color: rgb(44, 202, 163);
+}
+.logo{
+    height:150px;
+    
+}

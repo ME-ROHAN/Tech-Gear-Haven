@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.but{
+    display: flex;
+    
+}
+
+.but button{
+    background-color: white;
+    border: 1px solid gainsboro;
+    border-radius: 60%;
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+}
+
+.right {
+
+    margin-left: -20px;
+
+}
+
+.left {
+    margin-right: -20px;
+}
+
+.but button:hover{
+    background-color: orangered;
+
+}
+
+.mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.but p {
+    width: 90px;
+    border: 1px solid gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price{
+    font-weight: bolder;
+}
+
+.linee{
+    text-decoration: underline;
+}

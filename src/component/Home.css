@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding-top: 100px; /* Add this line to ensure content starts below the navbar */
+}
+
+.frontpage {
+    display: flex;
+    padding: 20px 0px 0px 100px;
+}
+
+img {
+    height: 700px;
+}
+
+.front-text {
+    font-size: 150px;
+    font-weight: bolder;
+    margin-right: 20px;
+}
+
+.home-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-para{
+    width: 40rem;
+    font-size: larger;
+    padding: 20px 0px 0px 100px;
+}
+
+.bottom-but{
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.home-shopbut{
+    height: 70px;
+    width: 200px;
+    border: none;
+    background-color: orangered;
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 25px;
+}
+
+.home-shopbut:hover{
+    background-color: rgba(255, 68, 0, 0.716);
+    transform: translateY(2px);
+}

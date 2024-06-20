@@ -1,0 +1,68 @@
+.Contact-form{
+    height: 80vh;
+    padding-top: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+input,h1,button {
+    margin-top: 20px;
+}
+
+input{
+    height: 50px;
+    width: 500px;
+    padding-left: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.form-message{
+
+    height: 200px;
+text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.Send-but{
+    width: 30%;
+    align-items: center;
+    height: 50px;
+    margin-top: 50px;
+    border: none;
+    font-size: x-large;
+    background-color: rgb(39, 233, 146);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.Send-but:hover{
+    transform: translateY(1.2px);
+    cursor: pointer;
+    background-color:  rgba(39, 233, 146, 0.686);
+}
+
+.Send-but img{
+    height: 30px;
+}

@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.aasd{
+    padding-top: 70px;
+    display: flex;
+}
+
+.cardlist{
+    padding-top: 70px;
+    border: 1px solid gainsboro;
+    height: 27rem;
+    width: 22rem;
+    margin: 40px;
+    text-align: center;
+    padding: 20px;
+    /* background-color: black;
+    color: white; */
+    transition: background-color 0.3s, color 0.3s; 
+    border-radius: 30px;
+    /* display: flex; */
+
+}
+.cardlist img{
+    max-height: 10rem;
+    max-width: 20rem;
+}
+
+.card-margin{
+    margin-top: 15px;
+}
+
+.cardlist:hover{
+   background-color: rgba(0, 0, 0, 0.633);
+    color: white;
+}
+
