@@ -6,12 +6,10 @@ const BuyCard = ({value , titles,  price, setvalue}) => {
 
   const [show, setshow] = useState(false)
 
-  // const abref = useRef();
+
 
   const buy=()=>{
-    // alert(`${value} item has been ordered`)
-    // alert()
-    // 
+
    
 
     if (value==0){
